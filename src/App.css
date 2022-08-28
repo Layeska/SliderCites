@@ -1,0 +1,56 @@
+
+body {
+  background: cadetblue;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.App button{ 
+  border-radius: 50%; 
+  margin-left: 80%;
+}
+
+.App {
+  width: 30rem;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainCard {
+  background: rgb(73, 80, 87, 0.5);
+  box-shadow: 20px 22px 32px -13px rgba(0,0,0,0.48);
+  width: fit-content;
+  height: fit-content;
+  padding: 2rem;
+  border-radius: 50px;
+}
+
+.card {
+  width: fit-content;
+  display: flex;
+  gap: 5px;
+}
+
+.svg {
+  width: 80px;
+  height: 80px;
+  margin-top: 2px;
+  position: absolute;
+  color: darkgray;
+}
+
+.cardCite {
+  position: relative;
+  font-family: 'Comic Sans MS';
+  text-align: right;
+  margin-left: 5.2rem;
+}
+
+.cardAuthor {
+  display: flex;
+  justify-content: flex-end;
+}
